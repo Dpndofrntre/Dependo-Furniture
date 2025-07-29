@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dependo Furniture & Appliances | Kazhakoottam, Trivandrum</title>
+  <meta name="description" content="Trusted local dealership offering premium furniture & modern appliances since 2010. Visit us in Kazhakoottam." />
+  <meta name="keywords" content="Furniture, Appliances, Kazhakoottam, Trivandrum, Kerala" />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dependo Furniture & Appliances" />
+  <meta property="og:description" content="Discover stylish furniture & modern appliances in Kazhakoottam." />
+  <meta property="og:image" content="https://dpndofrntre.github.io/Dependo-Furniture/images/og-image.jpg" />
+  <meta property="og:url" content="https://dpndofrntre.github.io/Dependo-Furniture/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- LocalBusiness schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FurnitureStore",
+    "name":"Dependo Furniture & Appliances",
+    "description":"Premium furniture & appliances in Kazhakoottam",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Kazhakoottam",
+      "addressLocality":"Thiruvananthapuram",
+      "addressRegion":"Kerala",
+      "postalCode":"695582"
+    },
+    "telephone":"+91-XXXXXXXXXX",
+    "openingHours":"Mo,Tu,We,Th,Fr,Sa 10:00-20:00"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#">Dependo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContent"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-success text-white ms-3 whatsapp-btn"
+              href="https://wa.me/91XXXXXXXXXX"
+              target="_blank"
+            >WhatsApp</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero" class="hero-section text-white d-flex align-items-center justify-content-center">
+    <div class="text-center px-3">
+      <h1>Elevate Your Home with Dependo’s Signature Furniture & Appliances</h1>
+      <p class="lead my-3">Handpicked collections for Kazhakoottam homes since 2010.</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#products" class="btn btn-lg btn-primary">Explore Collections</a>
+        <a href="https://goo.gl/maps/…" class="btn btn-lg btn-outline-light">Visit Our Showroom</a>
+      </div>
+      <div class="trust-badges d-flex justify-content-center gap-4 mt-4">
+        <div class="badge-item">Since 2010</div>
+        <div class="badge-item">Top Rated in Trivandrum</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- FEATURED PRODUCTS -->
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Featured Collections</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card product-card shadow-sm" data-product="Elegant Sofa">
+            <img src="images/sofa.jpg" class="card-img-top" alt="Elegant Sofa" />
+            <div class="card-body">
+              <h5 class="card-title">Elegant Sofa</h5>
+              <p class="card-text">Starting at ₹25,000</p>
+            </div>
+            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+              <button class="btn btn-light quick-enquiry">Quick Enquiry</button>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for more items, updating data-product, src, title, price -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & TESTIMONIALS -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Get in Touch</h2>
+      <div class="testimonials mb-4 text-center">
+        <blockquote>"Luxurious furniture and friendly service!"</blockquote>
+        <cite>—Anjali, Trivandrum</cite>
+      </div>
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/yourFormID"
+            method="POST"
+            class="p-4 bg-white shadow-sm rounded"
+          >
+            <input type="hidden" name="subject" id="inquiry-subject" value="General Enquiry" />
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" name="name" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" name="_replyto" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea name="message" rows="4" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="map-container shadow-sm rounded">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <p class="text-center mt-3">
+            Call/WhatsApp: <a href="https://wa.me/91XXXXXXXXXX">+91-XXXXXXXXXX</a><br/>
+            Kazhakoottam, Thiruvananthapuram – Kerala 695582
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-3 text-center bg-white border-top">
+    <small>&copy; 2025 Dependo Furniture & Appliances. All rights reserved.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
