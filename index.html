@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dependo</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="nav">
+      <div class="nav-title">Dependo</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section id="home" class="hero">
+    <h1>Your Tagline Here</h1>
+    <p>Short pitch text that hooks visitors instantly.</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="shop" class="featured">
+    <h2>Featured Products</h2>
+    <div class="products-grid">
+      <!-- Repeat for each product -->
+      <div class="product-card">
+        <img src="assets/images/product1.jpg" alt="Product 1"/>
+        <h3>Product 1</h3>
+        <p>Quick one-line description.</p>
+        <button class="btn">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Area -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@dependo.com</p>
+    <p>Phone: +91-1234567890</p>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div id="form-response"></div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
