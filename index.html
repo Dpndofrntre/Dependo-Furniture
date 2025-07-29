@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEPENDO Furniture & Appliances</title>
+  <meta name="description" content="Premium furniture and appliances dealership in Kazhakoottam, Trivandrum." />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="DEPENDO Furniture & Appliances" />
+  <meta property="og:description" content="Discover stylish furniture & modern appliances in Kazhakoottam." />
+  <meta property="og:image" content="https://yourdomain.com/images/og-image.jpg" />
+  <meta property="og:url" content="https://dependo.netlify.app" />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">DEPENDO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero" class="hero-section text-center text-white d-flex align-items-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Your Dream Home Starts Here</h1>
+      <p class="lead mb-4">Premium Furniture & Appliances in Kazhakoottam, Trivandrum</p>
+      <a href="#products" class="btn btn-lg btn-primary">Browse Collections</a>
+    </div>
+  </header>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Featured Collections</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/sofa.jpg" class="card-img-top" alt="Elegant Sofa" />
+            <div class="card-body">
+              <h5 class="card-title">Elegant Sofas</h5>
+              <p class="card-text">Luxurious comfort with modern design.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/dining.jpg" class="card-img-top" alt="Dining Set" />
+            <div class="card-body">
+              <h5 class="card-title">Dining Sets</h5>
+              <p class="card-text">Durable wood and glass combinations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="images/appliances.jpg" class="card-img-top" alt="Kitchen Appliances" />
+            <div class="card-body">
+              <h5 class="card-title">Home Appliances</h5>
+              <p class="card-text">Refrigerators, mixers, and more from top brands.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Get in Touch</h2>
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <form action="https://formspree.io/f/yourFormID" method="POST" class="p-4 bg-white shadow-sm rounded">
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" name="name" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" name="_replyto" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea name="message" rows="4" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="map-container shadow-sm">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE"
+              width="100%" height="100%" style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <p class="text-center mt-4 mb-0">
+        Call/WhatsApp: <a href="https://wa.me/91XXXXXXXXXX">+91-XXXXXXXXXX</a>
+      </p>
+      <p class="text-center">Kazhakoottam, Thiruvananthapuram – Kerala 695582</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-3 text-center bg-white border-top">
+    <div class="container">
+      <small>&copy; 2025 DEPENDO Furniture & Appliances. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
