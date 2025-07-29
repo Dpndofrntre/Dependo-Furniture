@@ -1,0 +1,65 @@
+/* Reset & Base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; color: #333; }
+
+/* Navbar */
+.navbar { padding: 1rem 2rem; }
+.nav-link { color: #333 !important; transition: color .3s; }
+.nav-link:hover,
+.nav-link.active { 
+  color: #0056b3 !important; 
+  border-bottom: 2px solid #0056b3; 
+}
+.whatsapp-btn { padding: .5rem 1rem; }
+
+/* Hero */
+.hero-section {
+  height: 75vh;
+  background: url('../images/hero-bg.jpg') center/cover no-repeat;
+  position: relative; display: flex;
+}
+.hero-section::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero-section .text-center {
+  position: relative; z-index: 1; max-width: 600px;
+}
+.hero-section h1 { font-size: 2rem; }
+.hero-section p.lead { font-size: 1.2rem; }
+.hero-section .btn { font-size: 1rem; }
+
+/* Trust Badges */
+.trust-badges .badge-item {
+  background: #fff; color: #0056b3;
+  border-radius: 20px; padding: .3rem .8rem;
+  font-weight: 600; font-size: .9rem;
+}
+
+/* Product Cards */
+.product-card { position: relative; overflow: hidden; }
+.product-card .card-img-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0; transition: opacity .3s;
+}
+.product-card:hover .card-img-overlay { opacity: 1; }
+.quick-enquiry { margin-bottom: .5rem; }
+
+/* Testimonials */
+.testimonials blockquote {
+  font-style: italic; color: #555; margin: 0;
+}
+.testimonials cite {
+  display: block; margin-top: .5rem;
+  font-weight: 600; color: #333;
+}
+
+/* Map */
+.map-container { height: 300px; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section { height: 50vh; }
+  .hero-section h1 { font-size: 1.5rem; }
+}
